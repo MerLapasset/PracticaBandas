@@ -1,9 +1,13 @@
-var express = require('express');
-var router = express.Router();
+let express = require('express');
+let router = express.Router();
+
+let controlllerGeneral= require("../contr")
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get('/:registrado?',controlllerGeneral.index);
+
+
+
+
 
 module.exports = router;
