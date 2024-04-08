@@ -1,1 +1,17 @@
-let listaData = {}
+let listaData = {
+    lista: [
+        {
+            
+
+        }, {
+
+        }, {
+
+        }, {
+
+        }
+    ]
+}
+
+
+// export
